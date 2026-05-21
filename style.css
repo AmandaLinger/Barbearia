@@ -134,3 +134,37 @@ body{
         color: #454545;
     }
 }
+
+footer{
+    padding: 100px 0px 350px 0px;
+    background-image: url('img/img_footer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .footer_container{
+        margin-left: 150px;
+        background-color: #454545;
+        padding: 16px;
+        width: 500px;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        color: white;
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .btn_footer{
+        width: 200px;
+        padding:  8px 16px;
+        border-radius: 30px;
+        border: none;
+        font-weight: bolder;
+        color: #454545; 
+    }
+}
