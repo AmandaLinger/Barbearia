@@ -1,0 +1,39 @@
+footer{
+    padding: 100px 0px 350px 0px;
+    background-image: url('../img/img_footer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .footer_container{
+        margin-left: 280px;
+        background-color: #454545;
+        padding: 16px;
+        width: 500px;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        color: white;
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .btn_footer{
+        width: 200px;
+        padding:  8px 16px;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        font-weight: bolder;
+        color: #454545; 
+    }
+    .btn_footer:hover{
+        border: 2px solid white;
+        background:  #454545;
+        color: white;
+        cursor: pointer;
+    }
+}

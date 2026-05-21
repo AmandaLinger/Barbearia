@@ -1,0 +1,42 @@
+header{
+    background: #8b8b8b;
+    border-radius: 30px;
+    margin: 8px 8px 0px 8px;
+    padding: 16px 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+    font-weight: bolder;
+
+    img{
+        width: 60px;
+        transform: rotate(-45deg);
+        margin-right: 16px;
+    }
+    img:hover{
+        cursor: pointer;
+        transform: rotate(45deg);
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        transform: translateY(-3px);
+        color: #272727;
+    }
+    nav{
+        position: absolute;
+        right: 60px;
+
+        display: flex;
+        gap : 16px;
+    }
+}

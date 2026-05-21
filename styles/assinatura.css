@@ -1,0 +1,40 @@
+.containerAssinatura{
+    background: #454545;
+    padding: 100px 350px 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .p_assinatura{
+        font-size: 24px;
+        color: white;
+        font-weight: bolder;
+        margin-bottom: 16px;
+    }
+    img{
+        height: 250px;
+    }
+    li{
+        color: white;
+        margin: 0px 0px 8px 36px;
+
+    }
+    li:hover{
+        cursor: pointer;
+    }
+    .btn_assinatura{
+        padding: 8px 16px;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 16px 0px 0px 90px;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+    }
+    .btn_assinatura:hover{
+        background: white;
+        color: #454545;
+    }
+}
