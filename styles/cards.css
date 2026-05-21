@@ -51,3 +51,17 @@
 .tamanho_img2{
     width: 120px;
 }
+
+
+@media screen and (max-width:430px){
+    .containerCards{
+        flex-direction: column;
+        padding: 50px 0px;
+        align-items: center;
+        background-image: url('');
+    }
+
+    .card:hover{
+        transform: translateY(0px);
+    }
+}

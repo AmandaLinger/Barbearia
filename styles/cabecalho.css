@@ -2,7 +2,7 @@ header{
     background: #8b8b8b;
     border-radius: 30px;
     margin: 8px 8px 0px 8px;
-    padding: 16px 16px;
+    padding: 16px;
 
     display: flex;
     align-items: center;
@@ -38,5 +38,22 @@ header{
 
         display: flex;
         gap : 16px;
+    }
+}
+@media screen and (max-width:430px){
+    header{
+        padding: 16px 8px;
+
+        img{
+            width: 60px;
+        }
+
+        .titulo{
+            display: none;
+        }
+    }
+
+    .displayNone{ 
+        display: none;
     }
 }

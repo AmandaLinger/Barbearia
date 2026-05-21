@@ -37,3 +37,28 @@ footer{
         cursor: pointer;
     }
 }
+
+
+@media screen and (max-width:430px){
+    footer{
+        padding: 40px 0px 40px;
+
+        display: flex;
+        justify-content: center;
+        .footer_container{
+            margin: 0px;
+            width: 220px;
+        }
+
+        h2{
+            font-size: 16px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .btn_footer{
+            width: 200px;
+            padding:  8px 8px;
+        }
+    }
+}
