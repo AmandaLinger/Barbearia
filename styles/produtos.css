@@ -1,0 +1,38 @@
+main{
+    padding:50px;
+}
+
+.main_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.card_produto{
+    border: 2px solid white;
+    background: white;
+    border-radius: 8px;
+
+    width: 250px;
+    height: 300px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img{
+        height: 200px;
+    }
+
+    .valor_produto{
+        font-weight: bolder;
+    }
+}
+
+.card_produto:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
