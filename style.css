@@ -9,7 +9,7 @@
 header{
     background: #8b8b8b;
     border-radius: 30px;
-    margin: 8px;
+    margin: 8px 8px 0px 8px;
     padding: 8px 16px;
 
     display: flex;
@@ -45,7 +45,12 @@ body{
     display: flex;
     gap: 16px;
     justify-content: center;
-    padding: 60px;
+    padding: 100px;
+
+    background-image: url('img/bg01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 920px;
 }
 
 .card{
@@ -87,5 +92,45 @@ body{
 }
 .tamanho_img2{
     width: 120px;
-    
+}
+
+.containerAssinatura{
+    background: #454545;
+    padding: 100px 150px 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .p_assinatura{
+        font-size: 24px;
+        color: white;
+        font-weight: bolder;
+        margin-bottom: 16px;
+    }
+    img{
+        height: 250px;
+    }
+    li{
+        color: white;
+        margin: 0px 0px 8px 36px;
+
+    }
+    li:hover{
+        cursor: pointer;
+    }
+    .btn_assinatura{
+        padding: 8px 16px;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 16px 0px 0px 90px;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+    }
+    .btn_assinatura:hover{
+        background: white;
+        color: #454545;
+    }
 }
